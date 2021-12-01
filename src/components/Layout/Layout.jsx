@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import { Loader } from 'react-loaders';
-//import { translate } from 'react-i18next';
+import { withTranslation } from 'react-i18next';
 
-
-import Header from 'components/Header/Header';
 import MapAPICNIG from 'components/MapAPICNIG/MapAPICNIG';
+//import Footer from 'components/Footer/Footer';
+import Header from 'components/Header/Header';
 import CustomModal from 'components/CustomModal/CustomModal';
+import { initMap } from 'utils/Visor';
 
 //import 'loaders.css/loaders.min.css';
-
-// Componente de clase
 import './Layout.css';
 
 class Layout extends Component {
@@ -22,10 +21,7 @@ class Layout extends Component {
   }
 
   componentDidMount() {
-    // initMap(this.unblock, this.props.t, this.props.params);
-    //initMap();
-    console.log("componentDidMount");
-    
+    initMap(this.unblock, this.props.t, this.props.params);
   }
 
   unblock = () => {
@@ -37,11 +33,12 @@ class Layout extends Component {
       <div className='content-wrapper'>
         <Header />
         <section className='layout-wrapper'>
-        <MapAPICNIG />
+          <MapAPICNIG />
         </section>
+        {/*<Footer />*/}
         <CustomModal open={this.state.blocking} blocking={true} onClose={this.unblock}>
           <div className='block-loader-container'>
-            <Loader active type={'ball-triangle-path'} color='#494780'/>
+            {/* <Loader active type={'ball-triangle-path'} color='#8f2031'/> */}
           </div>
         </CustomModal>
       </div>
@@ -49,5 +46,4 @@ class Layout extends Component {
   }
 }
 
-//export default translate()(Layout);
-export default Layout;
+export default withTranslation()(Layout);

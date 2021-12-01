@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import { translate } from 'react-i18next';
+import { withTranslation } from 'react-i18next';
 import Modal from 'react-responsive-modal';
 
 import './CustomModal.css';
@@ -51,5 +51,4 @@ class CustomModal extends Component {
   }
 }
 
-//export default translate()(CustomModal);
-export default CustomModal;
+export default withTranslation()(CustomModal);
