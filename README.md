@@ -31,17 +31,15 @@
 
 ## Descripción 👷
 
-El objeto de este proyecto es disponer de una single-page application (SPA), o aplicación de página única, muy básica, que haga uso de los componentes de la API-CNIG y sitva como base a waplicaciones más complejas.
+El objeto de este proyecto es disponer de una single-page application (SPA), o aplicación de página única, muy básica, que haga uso de los componentes de la API-CNIG y sirva como base a aplicaciones más complejas.
 
-El propósito de una SPA es la de disponer de una aplicación web o sitio web que quepa en una sola página con el propósito de dar una experiencia más fluida a los usuarios, como si fuera una aplicación de escritorio. En una SPA todos los códigos de HTML, JavaScript, y CSS se cargan una sola vez​ o los recursos necesarios se cargan dinámicamente cuando lo requiera la página, normalmente como respuesta a las acciones del usuario.
+El propósito de una **SPA** es la de disponer de una aplicación web o sitio web que quepa en una sola página con el propósito de dar una experiencia más fluida a los usuarios, como si fuera una aplicación de escritorio. En una SPA todos los códigos de HTML, JavaScript, y CSS se cargan una sola vez o los recursos necesarios se cargan dinámicamente cuando lo requiera la página, normalmente como respuesta a las acciones del usuario.
 
 ## ⚛️ React
 
 Como *framework* para el desarrollo de este arquetipo se ha utilizado **React**. Se trata de una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre.
 
 Se ha utilizado la última versión publcada de React 17.
-
-Vamos a realizar una alicación muy básica en React. Se trata de una lista de tareas en la que podemos añadir y borrar elementos y marcarlos como completados. Es la típica App de Hola mundo para aprender cómo funciona el flujo de una App de React.
 
 ### Creación del proyecto.
 
