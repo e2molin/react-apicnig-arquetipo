@@ -1,7 +1,7 @@
 export default {
   header: {
-    title: '<b>PNOA</b> ORTHOPHOTOS COMPARATOR',
-    subtitle: 'National Air Orthophotography Plan',
+    title: '<b>SPA</b> TITLE',
+    subtitle: 'SPA Subtitle',
   },
   visor: {
     coordinates: 'Coordinates',

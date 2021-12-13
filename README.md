@@ -1,8 +1,49 @@
-# TodoList con React
+<p align="center">
+  <img src="https://www.ign.es/resources/viewer/images/logoApiCnig0.5.png" height="152" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/270px-React.svg.png
+" height="152" />
+</p>
+<h1 align="center"><strong>APICNIG</strong> - <small>Arquetipo React</small></h1>
+
+<p align="center">
+  <a title="MIT License" href="LICENSE.md">
+    <img src="https://img.shields.io/badge/license-EUPL-blue.svg">
+  </a>
+  <a title="Node version" href="#">
+    <img src="https://img.shields.io/badge/node-v14.16-blue">
+  </a>  
+  <a title="NPM version" href="#">
+    <img src="https://img.shields.io/badge/npm-v6.14-blue">
+  </a>
+  <a title="Language" href="https://www.w3schools.com/html/" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=Lang&message=HTML&color=maroon">
+  </a>  
+  <a title="Language" href="https://www.w3schools.com/js/" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=Lang&message=Javascript&color=maroon">
+  </a>
+  <a title="Language" href="https://www.w3schools.com/css/" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=Lang&message=CSS3&color=maroon">
+  </a> 
+
+  <br />
+  <br />
+</p>
+
+## Descripción 👷
+
+El objeto de este proyecto es disponer de una single-page application (SPA), o aplicación de página única, muy básica, que haga uso de los componentes de la API-CNIG y sitva como base a waplicaciones más complejas.
+
+El propósito de una SPA es la de disponer de una aplicación web o sitio web que quepa en una sola página con el propósito de dar una experiencia más fluida a los usuarios, como si fuera una aplicación de escritorio. En una SPA todos los códigos de HTML, JavaScript, y CSS se cargan una sola vez​ o los recursos necesarios se cargan dinámicamente cuando lo requiera la página, normalmente como respuesta a las acciones del usuario.
+
+## ⚛️ React
+
+Como *framework* para el dfesarrollo de este arquetipo se ha utilizado **React**. Se trata de una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre.
+
+Se ha utilizado la última versión publcada de React 17.
 
 Vamos a realizar una alicación muy básica en React. Se trata de una lista de tareas en la que podemos añadir y borrar elementos y marcarlos como completados. Es la típica App de Hola mundo para aprender cómo funciona el flujo de una App de React.
 
-## Creación del proyecto.
+### Creación del proyecto.
 
 Este proyecto se ha creado usando el comando npx del gestor de paquetes de Node.JS
 
@@ -10,21 +51,12 @@ Este proyecto se ha creado usando el comando npx del gestor de paquetes de Node.
 $ npx create-react-app
 ```
 
-Toda la estructura, incluido el repo por defecto o el package.json, se crea automáticamente sin hacer más. Para más información sonre esto ver los [Apuntes de desarrollo](develnotes.md).
-
-## Conceptos 
-
-Una de las cosas importantes de React es que 
-
-* Las **propiedades** descienden desde el componente más alto al más pequeño.
-* Los **eventos** van desde el componente más abajo al componente superior.
+Toda la estructura, incluido el repo por defecto o el package.json, se crea automáticamente sin hacer más. Para más información sobre esto ver los [Apuntes de desarrollo](develnotes.md).
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Available Scripts
 
-## Available Scripts
-
-El package.json viene con los siguietes scripts:
+El package.json viene con los siguientes scripts:
 
 ### `npm start`
 
@@ -39,40 +71,10 @@ Podemos comprobar los errores por consola.
 Realiza un *build* de la App para producción en la carpeta `build` folder.\
 Para más información, consultar [deployment](https://facebook.github.io/create-react-app/docs/deployment).
 
-Importante: este programa despliega la aplicación asumiendo que la aplicación se sirve desde el raíz del servidor. Por ejemplo, la aplicación colgaría directamente de
-
-```html
-http://localhost/
-https://projects.develmap.com/
-```
-
-Si esto no es lo que queremos y hace falta que cuelgue de un directorio, es necesario especificar en el **package.json** el *homepage* relativo del que colgará. Por ejemplo:
-
-```json
-{
-  "name": "arquetipo",
-  "version": "0.1.0",
-  "private": true,
-  "homepage":"/e2molin/cursos/react/arquetipo/build",
-  "dependencies": {
-(...)
-```
-
-Además es necesario que en el directorio exista un fichero .htaccess con las siguientes cláusulas:
-
-```Apache
-Options -MultiViews
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.html [QSA,L]
-```
-
 
 ## Fuentes
 
 * [Extensiones de Visual Studio Code para trabajar con React](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
-
-
 
 ### `npm run eject`
 
@@ -82,15 +84,7 @@ Sin embargo, si desea comenzar a hacer cosas más complejas e instalar módulos 
 
 Eso, en esencia, es lo que react-scripts ejecthace. Dejará de ocultar lo que tiene instalado debajo del capó y en su lugar expulsará esas cosas en el package.json de su proyecto para que todos lo vean.
 
-**Note: esta es una operación sin vueta atrás. Una vez ejecutemos `eject`, no hay marcha atrás.
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
+## ⛲️ Referencias
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 

@@ -1,7 +1,7 @@
 export default {
   header: {
-    title: 'COMPARADOR <b>PNOA</b>',
-    subtitle: 'Plan Nacional de Ortofotografía Aérea',
+    title: 'Título de la <b>SPA</b>',
+    subtitle: 'Subtítulo de la SPA',
   },
   visor: {
     coordinates: 'Coordenadas',

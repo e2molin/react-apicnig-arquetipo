@@ -7,7 +7,7 @@ import { sortDown } from 'react-icons-kit/fa/sortDown';
 
 import LocalStorage from 'utils/LocalStorage';
 
-import LogoIGN from 'static/img/logo_IGN.png';
+import LogoIGN from 'static/img/logo_spa.png';
 
 import 'rc-dropdown/assets/index.css';
 import './Header.css';

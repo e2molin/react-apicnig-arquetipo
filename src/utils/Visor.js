@@ -49,7 +49,7 @@ export let mapjs;
 
   mapjs = M.map({
     container: 'map', //id del contenedor del mapa
-    controls: ['panzoom', 'scale*true', 'scaleline', 'rotate', 'location', 'backgroundlayers'],
+    controls: ['panzoom', 'scale*true', 'scaleline', 'location', 'backgroundlayers'],
     zoom: zoom,
     maxZoom: 20,
     minZoom: 4,
