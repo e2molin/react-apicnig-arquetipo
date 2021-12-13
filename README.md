@@ -37,7 +37,7 @@ El propósito de una SPA es la de disponer de una aplicación web o sitio web qu
 
 ## ⚛️ React
 
-Como *framework* para el dfesarrollo de este arquetipo se ha utilizado **React**. Se trata de una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre.
+Como *framework* para el desarrollo de este arquetipo se ha utilizado **React**. Se trata de una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre.
 
 Se ha utilizado la última versión publcada de React 17.
 
