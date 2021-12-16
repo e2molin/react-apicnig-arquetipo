@@ -1,9 +1,8 @@
 <p align="center">
   <img src="https://www.ign.es/resources/viewer/images/logoApiCnig0.5.png" height="152" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/270px-React.svg.png
-" height="152" />
+  <img src="assets/img/logo-React.png" height="152" />
 </p>
-<h1 align="center"><strong>APICNIG</strong> - <small>Arquetipo React</small></h1>
+<h1 align="center"><strong>APICNIG</strong> - <small>Arquetipo React 17</small></h1>
 
 <p align="center">
   <a title="MIT License" href="LICENSE.md">
@@ -24,9 +23,9 @@
   <a title="Language" href="https://www.w3schools.com/css/" target="_blank">
     <img src="https://img.shields.io/static/v1?label=Lang&message=CSS3&color=maroon">
   </a> 
-
-  <br />
-  <br />
+  <a title="Library" href="https://componentes.cnig.es/api-core/test.html" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=Lib&message=APICNIG&color=khaki">
+  </a>   
 </p>
 
 ## Descripción 👷
@@ -35,6 +34,7 @@ El objeto de este proyecto es disponer de una single-page application (SPA), o a
 
 El propósito de una **SPA** es la de disponer de una aplicación web o sitio web que quepa en una sola página con el propósito de dar una experiencia más fluida a los usuarios, como si fuera una aplicación de escritorio. En una SPA todos los códigos de HTML, JavaScript, y CSS se cargan una sola vez o los recursos necesarios se cargan dinámicamente cuando lo requiera la página, normalmente como respuesta a las acciones del usuario.
 
+![](assets/img/mapa-ejemplo.jpg)
 ## ⚛️ React
 
 Como *framework* para el desarrollo de este arquetipo se ha utilizado **React**. Se trata de una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre.
